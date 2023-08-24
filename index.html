@@ -30,19 +30,29 @@
              </div>
 
              <div class="content_2">
-                <table class="table table-hover">
-                    <tbody>
-                        <tr>
-                            <th scope="col">Prioridad</th>
-                            <th scope="col">Tareas</th>
-                            <th scope="col">ID</th>
-                            <th scope="col"><i class="fa-solid fa-check"></i></th>
-                            <th class="X_mark" scope="col"><i class="fa-solid fa-xmark"></i></th>    
-                        </tr>
-                      
-                      
-                      
-                      <section id="listaTareas">
+           
+             <table class="table table-hover">
+                <thead>
+                    <th scope="col">Prioridad</th>
+                    <th scope="col">Tareas</th>
+                    <th scope="col"class="X_mark">ID</th>
+                    <th scope="col" class="X_mark"><i  class="fa-solid fa-check"></i></th>
+                    <th class="X_mark" scope="col"><i class="fa-solid fa-xmark"></i></th>
+                </thead>
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                    <tbody id="listaTareas">
+                        
+                           
+                           
+                           
+
+                        
                        <!--
                             <tr>
                                 <th scope="row" id="NumTarea">2</th>
@@ -73,29 +83,29 @@
                              </tr>
                             
                             -->        
-                        </section> 
+                        
                     </tbody>
                 </table>
 
                   <div class="content_3">
                     <table class="table table-dark ">
-                        <tr>
+                        <thead  class="tabla">
                             
-                            <th >Total</th>
-                            <th >Realizadas</th>
+                            <th scope="col" >Total</th>
+                            <th scope="col-2" class="X_mark">Realizadas</th>
                             
-                        </tr>
+                        </thead>
 
                                 <!--TotalTareas--> 
 
-                        <tr class="table">
+                        <tbody class="table">
                             
-                            <th scope="row" id="totalTareas">
-                                
+                            <th scope="row" id="totalTareas">    
                             <th>
-                            <td colspan="1" class="table" id="tareasRealizadas"></td>
+                            <td class="table" ><h1 class="X_mark" style="color: rgb(77, 218, 233); font-size: 19px;" id="tareasRealizadas" ></h1>
+                            </td>
                             
-                        </tr>
+                        </tbody>
                       </table>
 
                   </div>
